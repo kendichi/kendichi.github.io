@@ -1,0 +1,629 @@
+header{    background-color: white;
+padding-top: px;}
+body {
+    margin: 0
+}
+.logopic{ width: 50px;
+position: relative;
+bottom: 8px;}
+.hospitalname{
+position: relative;
+    top: 34px;
+    left: 50px;
+}
+.mainpic{ width: 100%;
+    height: auto;
+    background-color: aqua;
+    flex: 100%;
+}
+.main{
+    flex: 100%;
+}
+.centeredtext{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    font-family: Roboto
+}
+.centeredtext2{
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    width: 420px;
+    font-family: Roboto
+}
+.donate{
+    float: right;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-right: 25px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10%;
+}
+.main-nav{
+background-color:white;
+display: flex;
+}
+.main-nav a
+{
+color: black;
+padding: 14px 20px;
+text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+}
+ul{
+    background-color:;
+display: flex;
+}
+li{
+    color: black;
+padding: 14px 20px;
+text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+    list-style-type: none;
+   
+}
+.main-nav a:hover {
+    color: #0078bf
+}
+#menu-icon {
+	display: none;
+	width: 20px;
+	height: 20px;
+	background: #CCC url(menu-alt-512.png) center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat
+
+}
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.call to action{
+
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+.largebox {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    overflow: hidden;
+    margin-right: 80px;
+   
+}
+.box1, .box2, .box3
+ {
+    width: 17%;
+    height: 151px;
+    background-color: #0078bf;
+    float: left;
+     padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+     color: white
+}
+.boxh1, .boxh2, .boxh3 {
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    color: white
+}
+.boxh3{
+    width: 100%;
+    margin-left: 
+}
+.text1, .text2{
+    position: relative;
+    top: 25px;
+    font-family: Roboto;
+}
+.text3 {
+    position: relative;
+    top: 25px;
+    width: 120%;
+    font-family: Roboto;
+    right: 15px;
+}
+ .button3 {
+    position: relative;
+    top: 40px;
+    width: 160px;
+    height: 35px;
+     letter-spacing: 1.4px;
+     font-family: Roboto;
+     border: none;
+     background-color: white;
+      border-radius: 3%;
+          color: #0078bf;
+}
+.button1 {
+        position: relative;
+    top: 40px;
+    width: 160px;
+    height: 35px;
+    letter-spacing: 1.4px;
+    background-color: white;
+    border: none;
+    font-family: Roboto;
+     border-radius: 3%;
+         color: #0078bf;
+}
+.button2 {
+ position: relative;
+    background-color: white;
+    top: 40px;
+    width: 160px;
+    height: 35px;
+    letter-spacing: 1.4px;
+    font-family: Roboto;
+    border: none;
+    margin-top: 20px;
+    border-radius: 3%;
+    color: #0078bf;
+}   
+.meetdoctor{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    width: 100%;
+}
+.largebox2{
+    width: 80%;
+ height: 410px;
+    background-color: white;
+    padding-top: 30px;
+    margin: auto;
+    overflow: hidden;
+}
+.box4, .box5, .box6, .box7{
+height: 315px;
+    width: 25%;
+    background-color: azure;
+    float: left;
+ 
+    text-align: center;
+}
+.doctor1, .doctor2, .doctor3, .doctor4{
+    height: 310px;
+    width: 220px;
+    background-color: azure
+}
+.textbox1, .textbox2, .textbox3, .textbox4{
+    background-color: #0078bf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Roboto;
+    width: 90%;
+    color: white
+}
+.patientbox{
+    width: 50%;
+    height: 400px;
+    background-color: black;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    z-index: 2;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(ts_140331_doctor_patient_bed_800x600.jpg);
+    color: white
+}
+.patientbox2{
+    width: 50%;
+    height: 400px;
+    background-color: darkturquoise;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url(rutland-region-doctor-medical-center-nmygdjdgbcbcwsp2l90a6cvgl369ll84a1pcpu359s.jpg);
+    color: white;
+}
+.patiaentimg1{
+    z-index: 1;
+}
+.largebox3{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.patient1{ border-radius: 50%;
+width: 100px;
+    margin-top: 70px;
+}
+.patient2{
+     border-radius: 50%;
+width: 100px;
+    margin-top: 70px;
+    text-align: center
+}
+.patientname2, .patientname1{
+    position: relative;
+    top: 30px;
+}
+.patientref2, .patientref1{
+    width: 70%;
+    margin-left: 100px;
+}
+.largebox4{
+    width: 100%;
+    margin: ;
+    overflow: hidden;
+}
+.box8, .box9{
+    height: 200px;
+    width: 33.3%;
+    background-color: #0078bf;
+    float: left;
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+}
+.box10{
+        height: 200px;
+    width: 33.4%;
+    background-color: #0078bf;
+    float: left;
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+}
+.hospitalbox1, .hospitalbox2, .hospitalbox3, .hospitalbox4{
+    padding-top: 20px;
+    text-align: center;
+}
+.hospitaltext1, .hospitaltext2, .hospitaltext3 {
+margin-top: 10px;
+    width: 300px;
+  text-align: center;
+    padding-left: 100px;
+}
+.hospitalnews{
+    padding-top: 20px;
+    text-align: center;
+}
+.largebox5{
+    width: 80%;
+    background-color: white;
+    padding-top: 30px;
+    margin: auto;
+    overflow: hidden;
+}
+.box11, .box12, .box13, .box14{
+height: 350px;
+    width: 250px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.box12, .box13, .box14{
+    margin-left: 0px
+}
+.img1, .img2, .img3, .img4{
+    height: 200px;
+    width: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.textbox5, .textbox6, .textbox7, .textbox8{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    width: 80%;
+    padding-left: 15px
+}
+.text4, .text5, .text6, .text7{
+    color: black;
+    text-decoration: none
+}
+.callbox{
+    width: 100%;
+    height: 75px;
+    background-color: #C7C7C7;
+    text-align: center;
+    font-family: Roboto;
+}
+.calltext{
+    position: relative;
+    top: 10px;
+    font-family: Roboto;
+}
+.calltext2{
+    position: relative;
+    top: 15px;
+}
+.logoboxes{
+    width: 100%;
+    height: 50px;
+    background-color: #BDBDBD;
+}
+.logobox1{
+    margin-left: 700px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+  
+    float: left;
+}
+.logobox2{
+    margin-top: 10px;
+     width: 25px;
+    height: 25px;
+ 
+    float: left;
+}
+.logobox3{
+    margin-left: 50px;
+    margin-top: 10px;
+     width: 25px;
+    height: 25px;
+ 
+    float: left;
+}
+.logo1{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 3px;
+}
+.logo2{
+      width: 40px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+}
+.logo3{
+       width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 3px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: dimgrey;
+    text-align: center;
+    font-family: Roboto;
+    padding-top: 10px;
+}
+@media (max-width: 768px){
+    body{
+        display: 
+    }
+    #menu-icon {
+		display:inline-block;
+        position: absolute;
+        bottom: 480px;
+        color: white;
+        top: 20px;
+	}
+    .main-nav ul, .main-nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+        color: black;
+
+	}
+    .main-nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+        float: right;
+
+	}
+
+	.main-nav:hover ul {
+
+		display: block;
+
+	}
+    .largebox{
+        background-color: white
+    }
+    .main-nav {
+        flex-direction: column;
+        width: 20%;
+        background-color: white;
+        float: right
+    }
+    .main-nav a{
+        color: black;
+    }
+    .main-nav a.icon{
+        float: right;
+        display: block;
+    }
+    
+    .largebox{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .largebox2{
+        height: 1700px
+    }
+    .box1, .box2, .box3{
+      float: none;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        right: 74px;
+    }
+    .hospitaltext1, .hospitaltext2, .hospitaltext3{
+        text-align: center;
+        padding-left: 40px;
+    }
+    .hospitalbox1, .hospitalbox2, .hospitalbox3 {
+        text-align: center;
+        margin-left: 10px;
+        width: 100%;
+    }
+     .largebox3{
+width: 100%;
+    }
+    .box4, .box5, .box6, .box7{
+   width: 100%;
+        float: none
+    }
+    .meetdoctor{ 
+        text-align: center;
+        width: 100%;
+    }
+    .callbox, .logobox{
+        text-align: center;
+        width: 50%;
+    }
+    footer{
+        height: 70px;
+    }
+    .patientbox, .patientbox2{
+     float: none;
+    width: 100%;
+        height: 500px;
+    }
+    .patientbox{
+   
+    }
+      .box8, .box9, .box10{
+     display: block;
+   width: 100%;
+        float: none
+    }
+    .hospitalnews{
+  
+    }
+      .box11, .box12, .box13, .box14{
+     display: block;
+   width: 80%;
+        float: none;
+          
+    }
+    .box11{
+   
+    }
+    .box8{
+ 
+    }
+    .callbox{
+  width: 100%;
+    }
+    .largebox5{
+        display: block;
+        flex-direction: column;
+        width: 85%;
+    }
+    .logobox1, .logobox2, .logobox3{
+        float: none;
+        display: block;
+        width: 0%;
+    }
+    .logoboxes{
+        width: 100%;
+    }
+    .box5, .box6, .box7{
+        margin-top: 80px;
+    }
+    .meetdoctor{
+        text-align: left;
+   width: 40%;
+    margin-left: 70px;
+    }
+    .largebox4{
+   width: 100%;
+    }
+    .textbox5, .textbox6, .textbox7, .textbox8{
+        width: 70%;
+        padding-left: 15px
+    }
+    .hospitalbox1, .hospitalbox2, .hospitalbox3, .hospitalbox4{
+        
+    }
+    .patientref1, .patientref2{
+        width: 80%;
+        margin-left: 40px;
+    }
+    .hospitalnews{
+        text-align: left;
+        margin-left: 100px;
+        width: 30%
+    }
+    .patientbox2{
+        margin-top: 0px;
+        width: 100%
+    }
+    .logobox1
+    {
+    margin-left: 100px;
+        margin-top: 0px;
+    }
+    .logobox3{
+        margin-right: 10px;
+        position: relative;
+        bottom: 70px;
+        margin-left: 205px;
+        margin-right: 0px;
+    }
+    .logobox2{
+        position: relative;
+        bottom: 35px;
+        margin-left: 130px;
+    }
+    .logo1, .logo2, .logo3{
+        margin-top: 10px;
+        margin-left: 30px
+    }
+    .logo1{
+        margin-left: 30px
+    }
+     .hospitalname{
+        width: 80%;
+        position: relative;
+        left: 0px;
+        margin-left: 50px;
+    }
+    .donate{
+        display: none
+    }
+    .mainpic{
+        height: 245px;
+        margin-bottom: 50px;
+    }
+    .centeredtext, .centeredtext2{
+        display: none
+    }
+    .textbox1, .textbox2, .textbox3, .textbox4{
+        width: 100%
+    }
+}
+    
